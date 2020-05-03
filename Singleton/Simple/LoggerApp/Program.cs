@@ -6,7 +6,8 @@ namespace LoggerApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Design Patterns - Singleton Basic Example");
+            Logger.GetInstance().Log("I am loggiing to singleton....");
         }
     }
 }
